@@ -24,3 +24,4 @@ export function RPCAndCheckValues(playerOne, playerTwo) {
 }
 
 console.log(RPCAndCheckValues('rock', 'scissors'));
+console.log(RPCAndCheckValues('scissors', 'scissors'));

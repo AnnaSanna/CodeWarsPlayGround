@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test1": "mocha",
+    "test": "c8 --all mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "c8": "^9.1.0",
+    "input": "1.0.1",
+    "mocha": "10.3.0",
+    "nyc": "^15.1.0",
+    "alert": "6.0.1",
+    "reduce": "1.0.2",
+    "some": "0.1.1"
+  }
+}
+

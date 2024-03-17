@@ -19,6 +19,7 @@ it('User did not guess the number', () => {
     equal(playOne.guess(3), false);
     try {
         playOne.guess(4);
+        equal('fail', 'For some reason the guess method did not throw');
     } catch (error) {
         equal(error, main.noGuessesLeft)
     }

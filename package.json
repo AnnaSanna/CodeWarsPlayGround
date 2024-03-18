@@ -5,8 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test1": "mocha",
-    "test": "c8 --include numberGame.js mocha test/numberGame.test.js"
+    "test": "c8 --all mocha",
+    "testNumberGame": "c8 --include numberGame.js mocha test/numberGame.test.js"
   },
   "author": "",
   "license": "ISC",

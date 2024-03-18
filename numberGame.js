@@ -1,4 +1,4 @@
-export const noGuessesLeft = 'No guesses left';
+export const errorMessageNoGuessesLeft = 'No guesses left';
 export class Guesser {
     constructor(number, lives) {
         this.number = number;
@@ -6,7 +6,7 @@ export class Guesser {
     }
 
     guess(number) {
-        if (this.lives === 0) throw noGuessesLeft;
+        if (this.lives <= 0) throw new Error(errorMessageNoGuessesLeft);
         if (number === this.number) return true
         else {
             this.lives = this.lives - 1;

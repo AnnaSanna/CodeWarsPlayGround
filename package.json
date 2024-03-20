@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "c8 --all mocha",
-    "testNumberGame": "c8 --include numberGame.js mocha test/numberGame.test.js"
+    "testNumberGame": "c8 --include numberGame.js mocha test/numberGame.test.js",
+    "testRemoveExclamationMarks": "c8 --include removeExclamationMarks.js mocha test/removeExclamationMarks.test.js"
   },
   "author": "",
   "license": "ISC",

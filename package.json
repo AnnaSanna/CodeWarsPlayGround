@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test1": "mocha",
-    "test": "c8 --all mocha"
+    "test": "c8 --all mocha",
+    "testCountNumberOfLowercase": "c8 mocha test/CountNumberOfLowercase.test.js"
   },
   "author": "",
   "license": "ISC",

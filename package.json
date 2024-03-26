@@ -5,9 +5,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test1": "mocha",
     "test": "c8 --all mocha",
-    "testNumberGame": "c8 mocha test/numberGame.test.js"
-  },
+    "testNumberGame": "c8 mocha test/numberGame.test.js",
+    "testCountNumberOfLowercase": "c8 mocha test/CountNumberOfLowercase.test.js"
+    },
   "author": "",
   "license": "ISC",
   "dependencies": {
